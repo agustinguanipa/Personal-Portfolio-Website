@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 Tested working with PHP5.4 and above (including PHP 7 )
 
  */
-require_once '../vendor/autoload.php';
+require_once './vendor/autoload.php';
 
 use FormGuide\Handlx\FormHandler;
 
@@ -14,7 +14,7 @@ use FormGuide\Handlx\FormHandler;
 $pp = new FormHandler(); 
 
 $validator = $pp->getValidator();
-$validator->fields(['nombres','apellidos','email'])->areRequired()->maxLength(50);
+$validator->fields(['nombres','apellidos''email'])->areRequired()->maxLength(50);
 $validator->field('email')->isEmail();
 $validator->field('mensaje')->maxLength(1000);
 

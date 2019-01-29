@@ -47,7 +47,7 @@ $(function()
             $btn = $(this);
             $btn.prop('type','button' ); 
             $btn.prop('orig_label',$btn.text());
-            $btn.text('Enviando...');
+            $btn.text('Sending ...');
         });
         
 

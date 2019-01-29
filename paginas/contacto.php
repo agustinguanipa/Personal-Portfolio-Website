@@ -14,8 +14,8 @@
 	<script src="../bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
-	<script type="text/javascript" src="../js/contacto.js"></script>
-	
+	<!--<script type="text/javascript" src="../js/contacto.js"></script>-->
+	<script type="text/javascript" src="../js/form.js"></script>
 </head>
 
 <body>
@@ -106,8 +106,16 @@
                 	</div>
               	</div>
             	</form>
-			  		</div>
-								    
+            	<div id="error_message" style="width:100%; height:100%; display:none; ">
+                <h4>
+                  Error
+              	</h4>
+              		Sorry there was an error sending your form. 
+          		</div>
+          		<div id="success_message" style="width:100%; height:100%; display:none; ">
+								<h2>Success! Your Message was Sent Successfully.</h2>
+							</div>
+			  		</div> 
 			  		<div class="col-sm-4 form-group">
 							<div>
 				      	<img src="../imagen/Agustin-with-Glasses-Rounded.png" alt="Foto Personal" height="325px">
