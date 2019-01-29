@@ -70,7 +70,7 @@
 	  			<hr class="my-4">
 	  			<div class="row">
 			  		<div class="col-sm-8 form-group">
-							<form role="form" id="contact-form" class="contact-form">
+							<form role="form" id="contact-form" class="contact-form action="mailto:agustin_guanipa@hotmail.com" method="post" enctype="text/plain"">
                 <div class="row">
             			<div class="col-md-6 form-label">
             				<label>Nombres: </label>
