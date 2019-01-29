@@ -15,7 +15,6 @@
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
 	<script type="text/javascript" src="../js/contacto.js"></script>
-	<link href="../fontawesome-free-5.6.3-web/css/all.css" rel="stylesheet">
 	
 </head>
 
