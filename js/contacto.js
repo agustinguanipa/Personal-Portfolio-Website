@@ -8,53 +8,40 @@ $(document).ready(function() {
         },
         fields: {
             nombres: {
-                message: 'The username is not valid',
+                message: 'Ingrese un Nombre Válido',
                 validators: {
                     notEmpty: {
-                        message: 'The username is required and cannot be empty'
-                    },
-                    stringLength: {
-                        min: 6,
-                        max: 30,
-                        message: 'The username must be more than 6 and less than 30 characters long'
-                    },
-                   
+                        message: 'El Nombre es Requerido y no puede estar vacío'
+                    }
                 }
             },
             apellidos: {
-                message: 'The username is not valid',
+                message: 'Ingrese un Apellido Válido',
                 validators: {
                     notEmpty: {
-                        message: 'The username is required and cannot be empty'
-                    },
-                    stringLength: {
-                        min: 6,
-                        max: 30,
-                        message: 'The username must be more than 6 and less than 30 characters long'
-                    },
-                   
+                        message: 'El Apellido es Requerido y no puede estar vacío'
+                    }
                 }
             },
             email: {
                 validators: {
                     notEmpty: {
-                        message: 'The email is required and cannot be empty'
+                        message: 'El E-Mail es Requerido y no puede estar vacío'
                     },
                     emailAddress: {
-                        message: 'The input is not a valid email address'
+                        message: 'Esta no es una Dirección de Correo Válida'
                     }
                 }
             },
             mensaje: {
-                message: 'The username is not valid',
+                message: 'Ingrese un Mensaje Válido',
                 validators: {
                     notEmpty: {
-                        message: 'The username is required and cannot be empty'
+                        message: 'El Mensaje es Requerido y no puede estar vacío'
                     },
                     stringLength: {
-                        min: 6,
-                        max: 30,
-                        message: 'The username must be more than 6 and less than 30 characters long'
+                        max: 500,
+                        message: 'El Mensaje es de Máximo 500 Caracteres'
                     },
                    
                 }
