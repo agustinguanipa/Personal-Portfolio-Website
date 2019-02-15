@@ -73,7 +73,28 @@
 
 						<div class="row">
 							<div class="row">
+
+							<!-- Retratos -->
+
+											<div class="col-lg-3 col-md-4 col-xs-6 thumb filter retratos">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Agustin.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Agustin.jpg"
+					                         alt="Retratos">
+					                </a>
+					            </div>
 					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter retratos">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Agustin-with-Glasses.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Agustin-with-Glasses.jpg"
+					                         alt="Retratos">
+					                </a>
+					            </div>
+											<div class="col-lg-3 col-md-4 col-xs-6 thumb filter retratos">
 					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
 					                   data-image="../imagen/galeria/Agustin-a-New-Yorker.jpg"
 					                   data-target="#image-gallery">
@@ -91,16 +112,10 @@
 					                         alt="Retratos">
 					                </a>
 					            </div>
-					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter retratos">
-					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
-					                   data-image="../imagen/galeria/Agustin-with-Glasses.jpg"
-					                   data-target="#image-gallery">
-					                    <img class="img-thumbnail"
-					                         src="../imagen/galeria/Agustin-with-Glasses.jpg"
-					                         alt="Retratos">
-					                </a>
-					            </div>
-					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter paisajes">
+
+							<!-- Paisajes -->
+
+											<div class="col-lg-3 col-md-4 col-xs-6 thumb filter paisajes">
 					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
 					                   data-image="../imagen/galeria/Paisaje-1.jpg"
 					                   data-target="#image-gallery">
@@ -109,13 +124,16 @@
 					                         alt="Paisaje">
 					                </a>
 					            </div>
-					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter disenos">
+
+							<!-- Diseños -->
+
+											<div class="col-lg-3 col-md-4 col-xs-6 thumb filter disenos">
 					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
 					                   data-image="../imagen/galeria/Arequipe-Los-Alpes.jpg"
 					                   data-target="#image-gallery">
 					                    <img class="img-thumbnail"
 					                         src="../imagen/galeria/Arequipe-Los-Alpes.jpg"
-					                         alt="Paisaje">
+					                         alt="Diseno">
 					                </a>
 					            </div>
 					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter disenos">
@@ -124,7 +142,7 @@
 					                   data-target="#image-gallery">
 					                    <img class="img-thumbnail"
 					                         src="../imagen/galeria/Concurso-IG.jpg"
-					                         alt="Paisaje">
+					                         alt="Diseno">
 					                </a>
 					            </div>
 					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter disenos">
@@ -133,9 +151,305 @@
 					                   data-target="#image-gallery">
 					                    <img class="img-thumbnail"
 					                         src="../imagen/galeria/UNEFA.jpg"
-					                         alt="Paisaje">
+					                         alt="Diseno">
 					                </a>
 					            </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter disenos">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Etiqueta-Antonella-Tamburini.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Etiqueta-Antonella-Tamburini.jpg"
+					                         alt="Diseno">
+					                </a>
+					            </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter disenos">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Etiqueta-Isabella-Tamburini.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Etiqueta-Isabella-Tamburini.jpg"
+					                         alt="Diseno">
+					                </a>
+					            </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter disenos">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Etiqueta-Isabella-y-Antonella-Tamburini.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Etiqueta-Isabella-y-Antonella-Tamburini.jpg"
+					                         alt="Diseno">
+					                </a>
+					            </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter disenos">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Logo-Kabys.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Logo-Kabys.jpg"
+					                         alt="Diseno">
+					                </a>
+					            </div>
+
+							<!-- ZP Fotografia -->
+											
+											<div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Sesion-Adriana.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Sesion-Adriana.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+											<div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Flores-1.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Flores-1.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Taller-Variaditas-2017.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Taller-Variaditas-2017.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Sesion-Jose.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Sesion-Jose.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Matrimonio-1.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Matrimonio-1.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Matrimonio-2.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Matrimonio-2.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Diseno-Arado-Medellin.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Diseno-Arado-Medellin.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Sesion-Maigreth.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Sesion-Maigreth.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Sesion-Natalia.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Sesion-Natalia.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Taller-Variaditas-Agustin.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Taller-Variaditas-Agustin.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Taller-Variaditas-2018.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Taller-Variaditas-2018.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Sesion-Ivana.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Sesion-Ivana.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Sesion-Dariana.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Sesion-Dariana.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Sesion-Junior.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Sesion-Junior.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Conferencia-Dave-Capella.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Conferencia-Dave-Capella.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+					            </div>
+					          	<div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Carlos-Cruz.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Carlos-Cruz.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Sesion-Vicente-Beethoven.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Sesion-Vicente-Beethoven.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/ShowRoom-Primarera-2018.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/ShowRoom-Primarera-2018.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+						          </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Diseno-Taller-ZP-1.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Diseno-Taller-ZP-1.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+					            </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Diseno-Taller-ZP-2.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Diseno-Taller-ZP-2.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+					            </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Diseno-Taller-Maquilladora.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Diseno-Taller-Maquilladora.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+					            </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Taller-ZP-1.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Taller-ZP-1.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+					            </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Taller-ZP-2.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Taller-ZP-2.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+					            </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Sesion-Maga-1.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Sesion-Maga-1.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+					            </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Sesion-Maga-2.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Sesion-Maga-2.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+					            </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Sesion-Niurka-1.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Sesion-Niurka-1.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+					            </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Sesion-Niurka-2.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Sesion-Niurka-2.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+					            </div>
+					            <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Sesion-Alvaro.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Sesion-Alvaro.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+					            </div>
+
+
+
+					            
+					            
 					        </div>
 
 					        <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
