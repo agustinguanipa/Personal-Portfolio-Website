@@ -276,6 +276,15 @@
 						          </div>
 						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
 					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+					                   data-image="../imagen/galeria/Conferencia-Dave-Capella.jpg"
+					                   data-target="#image-gallery">
+					                    <img class="img-thumbnail"
+					                         src="../imagen/galeria/Conferencia-Dave-Capella.jpg"
+					                         alt="ZP Fotografia">
+					                </a>
+					            </div>
+						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
+					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
 					                   data-image="../imagen/galeria/Taller-Variaditas-Agustin.jpg"
 					                   data-target="#image-gallery">
 					                    <img class="img-thumbnail"
@@ -319,15 +328,6 @@
 					                         alt="ZP Fotografia">
 					                </a>
 						          </div>
-						          <div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
-					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
-					                   data-image="../imagen/galeria/Conferencia-Dave-Capella.jpg"
-					                   data-target="#image-gallery">
-					                    <img class="img-thumbnail"
-					                         src="../imagen/galeria/Conferencia-Dave-Capella.jpg"
-					                         alt="ZP Fotografia">
-					                </a>
-					            </div>
 					          	<div class="col-lg-3 col-md-4 col-xs-6 thumb filter zpfotografia">
 					                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
 					                   data-image="../imagen/galeria/Carlos-Cruz.jpg"
