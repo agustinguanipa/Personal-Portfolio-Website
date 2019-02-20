@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title>Carlos Agustin Guanipa Alvarez</title>
+	<title>Sobre Mí | Carlos Agustin Guanipa Alvarez</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="../imagen/favicon.ico" type="image/x-icon">
