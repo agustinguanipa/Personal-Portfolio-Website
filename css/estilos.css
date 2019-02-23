@@ -21,6 +21,13 @@
 	margin-bottom: 0px;
 }
 
+#fondo_contacto{
+	background-image: url("../imagen/fondo-agustin.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 0px;
+}
+
 #portada{
 	background-color: #949BA8; 
 	background-size: 100px;
