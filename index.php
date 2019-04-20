@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<title>Inicio | Carlos Agustin Guanipa Alvarez</title>
 	<meta charset="UTF-8">
@@ -82,7 +82,7 @@
 	  </div>
 	</div>
 
-	<div class="jumbotron text-center" style="margin-bottom:0; background-color: #FFFFFF">
+	<div class="jumbotron text-center" style="margin-bottom:0; background-color: #FFFFFF;">
 	  <div class="container">
 	  	<h1>Proyectos</h1>
 	  	<hr class="my-4">
