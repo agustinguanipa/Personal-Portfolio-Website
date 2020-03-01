@@ -1,4 +1,4 @@
-<?php require_once('header.php'); ?>
+<?php require_once('includes/header.php'); ?>
 
 <head>
 	<title>Portafolio | Carlos Agustin Guanipa Alvarez</title>
@@ -9,7 +9,7 @@
 	  <div class="container">
 	  	<div class="row">
 	  		<div class="col-sm-12 form-group">
-	  			<h1>Portafolio</h1>
+	  			<h2 class="" style="color: #000000;"><b>Portafolio</b></h2>
 	  			<hr class="my-4">
 	  			<div align="center">
 				    <button class="btn btn-primary active filter-button" data-filter="todo">Todo</button>
@@ -423,6 +423,6 @@
 	</div>
 </body>
 
-<?php require_once('footer.php');  ?>
+<?php require_once('includes/footer.php');  ?>
 
 

@@ -1,7 +1,7 @@
-<?php require_once('header.php'); ?>
+<?php require_once('includes/header.php'); ?>
 
 <head>
-	<title>Sobre Mí | Carlos Agustin Guanipa Alvarez</title>
+	<title>Sobre Mí | Agustin Guanipa</title>
 </head>
 
 <body>
@@ -9,7 +9,7 @@
 	  <div class="container">
 	  	<div class="row">
 	  		<div class="col-sm-12 form-group">
-	  			<h1>Sobre Mí</h1>
+	  			<h2 class="" style="color: #000000;"><b>Sobre Mí</b></h2>
 	  			<hr class="my-4">
 	  			<div>
 	      			<img src="../imagen/Agustin-1-x-1-Rounded.png" alt="Foto Personal" height="180px">
@@ -27,5 +27,5 @@
 	</div>s
 </body>
 
-<?php require_once('footer.php');  ?>
+<?php require_once('includes/footer.php');  ?>
 

@@ -33,6 +33,13 @@
 	background-size: 100px;
 }
 
+.index-background{
+	padding: 30px;
+	text-align: center;
+	background: rgb(56,176,222);
+background: linear-gradient(90deg, rgba(56,176,222,1) 0%, rgba(66,136,255,1) 50%, rgba(0,74,255,1) 100%);
+}
+
 .titulo{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
