@@ -1,50 +1,119 @@
-<?php require_once('header.php'); ?>
+<?php require_once('includes/header.php'); ?>
 
 <head>
-	<title>Proyectos Académicos | Carlos Agustin Guanipa Alvarez</title>
+	<title>Blog | Carlos Agustin Guanipa Alvarez</title>
 </head>
 
 <body>
 	<div class="jumbotron text-center" style="margin-bottom:0; background-color: #FBFCFF;">
-		<h1>Proyectos Académicos</h1>
-		<hr class="my-4">
-		<h2>Lenguajes de Programacion II</h2>
-		<hr class="my-4">
-		<div class="card-deck">
-		  <div class="card">
-		    <img class="card-img-top" src="../imagen/code3.jpg" alt="Image Coding">
-		    <div class="card-body">
-		      <h5 class="card-title">Proyecto V1 (HTML/CSS/JS)</h5>
-		      <p class="card-text">Sistema de Control de Estudiantes utilizando los básicos de HTML, CSS y JavaSript y además manejo de Bases de Datos.</p>
+	  <div class="container">
+	  	<div class="row">
+
+				<!--- Columna 1 --->
+
+	  		<div class="col-sm-8 form-group mb-5">
+	  			<h2 class="" style="color: #000000;"><b>Blog</b></h2>
+	  			<hr class="my-4">
+	  			
+					<?php
+		        include("conexion.php");
+		         $perpage = 3;
+		          if(isset($_GET['page']) & !empty($_GET['page'])){
+		            $curpage = $_GET['page'];
+		          }else{
+		            $curpage = 1;
+		          }
+		          $start = ($curpage * $perpage) - $perpage;
+		          $PageSql = "SELECT * FROM tab_not WHERE statu_not = 1 ORDER BY ident_not DESC";
+		          $pageres = mysqli_query($conexion, $PageSql);
+		          $totalres = mysqli_num_rows($pageres);
+
+		          $endpage = ceil($totalres/$perpage);
+		          $startpage = 1;
+		          $nextpage = $curpage + 1;
+		          $previouspage = $curpage - 1;
+
+		          $ReadSql = "SELECT * FROM tab_not WHERE statu_not = 1 ORDER BY ident_not DESC LIMIT $start, $perpage";
+		          $res = mysqli_query($conexion, $ReadSql);
+		      ?>
+
+		      <div class="container text-center">
+		        <div class="card-deck">
+		          <?php
+		              while($row = mysqli_fetch_assoc($res)){
+
+		                if ($row['image_not'] != 'default.jpg') 
+		                {
+		                  $foto = '../imagen/uploads/'.$row['image_not'];
+		                }else{
+		                  $foto = '../imagen/uploads/'.$row['image_not'];
+		                }
+		            ?>
+		          <div class="col-lg-12">
+		            <div class="card my-3">
+		              <img  class="card-img-fluid image-size-index" src="<?php echo $foto; ?>" alt="Foto de la Noticia">
+		              <div class="card-body">
+		                <h4 class="card-title"><b><?php echo $row['titul_not'] ?></b></h4>
+		                <p class="card-text"><?php echo $row['desco_not'] ?></p>
+		                <p class="card-text float-left"><small class="text-muted"><?php echo $row['fecpu_not'] ?></small></p>
+		                <a href="paginas/noticia_detalle.php?id=<?php echo $row['ident_not']; ?>" class="btn btn-primary float-right"><i class="fa fa-eye"></i> Leer Más</a>
+		              </div>
+		            </div>
+		          </div>
+		          <?php
+		              }
+		            ?>
+		        </div>
+		      </div>
+
+		      <br>
+
+		      <!--Pagination-->
+		      <nav aria-label="Page navigation">
+		        <ul class="pagination float-right">
+		        <?php if($curpage != $startpage){ ?>
+		          <li class="page-item">
+		            <a class="page-link" href="?page=<?php echo $startpage ?>" tabindex="-1" aria-label="Previous">
+		              <span aria-hidden="true">&laquo;</span>
+		              <span class="sr-only">First</span>
+		            </a>
+		          </li>
+		          <?php } ?>
+		          <?php if($curpage >= 2){ ?>
+		          <li class="page-item"><a class="page-link" href="?page=<?php echo $previouspage ?>"><?php echo $previouspage ?></a></li>
+		          <?php } ?>
+		          <li class="page-item active"><a class="page-link" href="?page=<?php echo $curpage ?>"><?php echo $curpage ?></a></li>
+		          <?php if($curpage != $endpage){ ?>
+		          <li class="page-item"><a class="page-link" href="?page=<?php echo $nextpage ?>"><?php echo $nextpage ?></a></li>
+		          <li class="page-item">
+		            <a class="page-link" href="?page=<?php echo $endpage ?>" aria-label="Next">
+		              <span aria-hidden="true">&raquo;</span>
+		              <span class="sr-only">Last</span>
+		            </a>
+		          </li>
+		          <?php } ?>
+		        </ul>
+		      </nav>
+		      <br>
 		    </div>
-		    <div class="card-footer">
-		      <a href="Proyecto V1/index.php" class="btn btn-primary">Ver Proyecto</a>
-		    </div>
-		  </div>
-		  <div class="card">
-		    <img class="card-img-top" src="../imagen/code4.jpg" alt="Image Coding">
-		    <div class="card-body">
-		      <h5 class="card-title">Proyecto V2 (Bootstrap & CRUD)</h5>
-		      <p class="card-text">Sistema de Control de Estudiantes utilizando los básicos de HTML, CSS y JavaSript y además manejo de Bases de Datos acompañado de la Librería Bootstrap.</p>
-		    </div>
-		    <div class="card-footer">
-		      <a href="Proyecto V2/index.php" class="btn btn-primary">Ver Proyecto</a>
-		    </div>
-		  </div>
-		  <div class="card">
-		    <img class="card-img-top" src="../imagen/code5.jpg" alt="Image Coding">
-		    <div class="card-body">
-		      <h5 class="card-title">Proyecto V3 Yii Framework</h5>
-		      <p class="card-text">Sistema de Control de Estudiantes utilizando los básicos de HTML, CSS y JavaSript y además manejo de Bases de Datos acompañado del Framework Yii.</p>
-		    </div>
-		    <div class="card-footer">
-		      <a href="Proyecto V3/index.php" class="btn btn-primary">Ver Proyecto</a>
+
+				<!--- Columna 2 --->
+
+		    <div class="col-sm-4 form-group mb-5">
+	  			<h2 class="" style="color: #000000;"><b>Últimos Post</b></h2>
+	  			<hr class="my-4">
+	  			<h5 class="" style="color: #000000;"><b>Twitter</b></h5>
+	  			<a href="https://twitter.com/agustinguanipa?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @agustinguanipa</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<a class="twitter-timeline" data-height="1000" href="https://twitter.com/AgustinGuanipa?ref_src=twsrc%5Etfw">Tweets by AgustinGuanipa</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<h5 class="" style="color: #000000;"><b>Instagram</b></h5>
+					<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+					<iframe src="//lightwidget.com/widgets/59cbff6a504951e3ac812629fddaa9d8.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 		    </div>
 		  </div>
 		</div>
-	</div>
+	</div>s
 </body>
 
-<?php require_once('footer.php');  ?>
+<?php require_once('includes/footer.php');  ?>
 
 

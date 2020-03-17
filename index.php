@@ -64,7 +64,7 @@
 	      	<a class="nav-link" href="paginas/sobre_mi.php"><b>Sobre Mí</b></a>
 	   	 	</li>
 		    <li class="nav-item">
-	      	<a class="nav-link" href="paginas/sobre_mi.php"><b>Blog</b></a>
+	      	<a class="nav-link" href="paginas/blog.php"><b>Blog</b></a>
 	   	 	</li>
 		    <li class="nav-item">
 		      <a class="nav-link" href="paginas/portafolio.php"><b>Portafolio</b></a>

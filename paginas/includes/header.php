@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Inicio | Agustin Guanipa</title>
 	<meta name="description" content="Agustin Guanipa">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,7 +63,7 @@
 	      	<a class="nav-link" href="sobre_mi.php"><b>Sobre Mí</b></a>
 	   	 	</li>
 		    <li class="nav-item">
-	      	<a class="nav-link" href="sobre_mi.php"><b>Blog</b></a>
+	      	<a class="nav-link" href="blog.php"><b>Blog</b></a>
 	   	 	</li>
 		    <li class="nav-item">
 		      <a class="nav-link" href="portafolio.php"><b>Portafolio</b></a>

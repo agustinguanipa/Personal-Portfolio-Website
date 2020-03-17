@@ -24,7 +24,7 @@
 		    </div>
 		  </div>
 		</div>
-	</div>s
+	</div>
 </body>
 
 <?php require_once('includes/footer.php');  ?>
