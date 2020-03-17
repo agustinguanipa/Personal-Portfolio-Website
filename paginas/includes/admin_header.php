@@ -26,8 +26,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>Panel de Control | Innovadores FUNDACITE Táchira</title>
-  <meta name="description" content="FUNDACITE Táchira | Innovadores">
+  <title>Panel de Control | Agustin Guanipa</title>
+  <meta name="description" content="Agustin Guanipa">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--- Favicon --->
