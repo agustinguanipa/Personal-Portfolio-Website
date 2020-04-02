@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 02, 2020 at 05:50 PM
+-- Generation Time: Apr 02, 2020 at 06:53 PM
 -- Server version: 5.7.26
 -- PHP Version: 7.3.7
 
@@ -35,7 +35,7 @@ CREATE TABLE `tab_imag` (
 --
 
 INSERT INTO `tab_imag` (`ident_imag`, `nombr_imag`, `descr_imag`, `categ_imag`, `image_imag`, `fecre_imag`, `statu_imag`) VALUES
-(1, 'Agustin Pensando', 'Agustin Pensando', 'RETRATOS', 'imagen/portafolio/Agustin.jpg', '2020-04-02 20:01:00', '1');
+(1, 'Agustin Pensando', 'Agustin Pensando', 'RETRATOS', '../imagen/portafolio/Agustin.jpg', '2020-04-02 20:01:00', '1');
 
 -- --------------------------------------------------------
 
@@ -60,9 +60,9 @@ CREATE TABLE `tab_proy` (
 --
 
 INSERT INTO `tab_proy` (`ident_proy`, `nombr_proy`, `desco_proy`, `descr_proy`, `image_proy`, `areaa_proy`, `fecre_proy`, `statu_proy`, `ident_usua`) VALUES
-(1, 'CRUD CON HTML Y CSS', 'Registra, Edita, Actualiza, Elimina y Lista tus Registros utilizando una Base de Datos', '<p style=\"text-align:center\"><strong>Registra, Edita, Actualiza, Elimina y Lista tus Registros utilizando una Base de Datos</strong></p>\r\n\r\n<p style=\"text-align:center\">&nbsp;</p>\r\n\r\n<p style=\"text-align:center\"><a href=\"http://mega.nz\"><strong>Descargar Archivo (.zip)</strong></a></p>\r\n', 'imagen/publicaciones/default.jpg', 'DESARROLLO WEB', '2020-04-02 19:21:42', '1', 1),
-(2, 'CRUD CON PAGINACION UTILIZANDO BOOTSTRAP 4', 'Listado con Paginacion utilizando Bootstrap', '<p style=\"text-align:center\"><strong>CRUD CON PAGINACION UTILIZANDO BOOTSTRAP 4</strong></p>\r\n', 'imagen/publicaciones/code4.jpg', 'DESARROLLO WEB', '2020-04-02 19:54:26', '1', 1),
-(3, 'SISTEMA WEB DE COMERCIO ELECTRONICO', 'SISTEMA WEB DE COMERCIO ELECTRONICO', '<p>SISTEMA WEB DE COMERCIO ELECTRONICO</p>\r\n', 'imagen/publicaciones/code2.jpg', 'DESARROLLO WEB', '2020-04-02 19:57:10', '1', 1);
+(1, 'CRUD CON HTML Y CSS', 'Registra, Edita, Actualiza, Elimina y Lista tus Registros utilizando una Base de Datos', '<p style=\"text-align:center\"><strong>Registra, Edita, Actualiza, Elimina y Lista tus Registros utilizando una Base de Datos</strong></p>\r\n\r\n<p style=\"text-align:center\">&nbsp;</p>\r\n\r\n<p style=\"text-align:center\"><a href=\"http://mega.nz\"><strong>Descargar Archivo (.zip)</strong></a></p>\r\n', '../imagen/publicaciones/default.jpg', 'DESARROLLO WEB', '2020-04-02 19:21:42', '1', 1),
+(2, 'CRUD CON PAGINACION UTILIZANDO BOOTSTRAP 4', 'Listado con Paginacion utilizando Bootstrap', '<p style=\"text-align:center\"><strong>CRUD CON PAGINACION UTILIZANDO BOOTSTRAP 4</strong></p>\r\n', '../imagen/publicaciones/code4.jpg', 'DESARROLLO WEB', '2020-04-02 19:54:26', '1', 1),
+(3, 'SISTEMA WEB DE COMERCIO ELECTRONICO', 'SISTEMA WEB DE COMERCIO ELECTRONICO', '<p>SISTEMA WEB DE COMERCIO ELECTRONICO</p>\r\n', '../imagen/publicaciones/code2.jpg', 'DESARROLLO WEB', '2020-04-02 19:57:10', '1', 1);
 
 -- --------------------------------------------------------
 
@@ -118,7 +118,7 @@ ALTER TABLE `tab_usua`
 -- AUTO_INCREMENT for table `tab_imag`
 --
 ALTER TABLE `tab_imag`
-  MODIFY `ident_imag` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `ident_imag` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `tab_proy`
