@@ -23,7 +23,7 @@
 	      <p class="card-text text-center">Administrar Publicaciones</p>
 	    </div>
 	    <div class="card-footer" align="center">
-      	<a href="admin_publicacion.php" class="btn btn-sm btn-primary">Ver Publicaciones</a>
+      	<a href="publicacion_lista.php" class="btn btn-sm btn-primary">Ver Publicaciones</a>
     	</div>
 	  </div>
 	  <div class="card">
@@ -33,7 +33,7 @@
 	      <p class="card-text text-center">Administrar Imágenes</p>
 	    </div>
 	    <div class="card-footer" align="center">
-	    	<a href="admin_portafolio.php" class="btn btn-sm btn-primary">Ver Imágenes</a>
+	    	<a href="portafolio_lista.php" class="btn btn-sm btn-primary">Ver Imágenes</a>
     	</div>
 	  </div>
 	</div>

@@ -24,8 +24,8 @@
 		            $curpage = 1;
 		          }
 		          $start = ($curpage * $perpage) - $perpage;
-		          $PageSql = "SELECT * FROM tab_not WHERE statu_not = 1 ORDER BY ident_not DESC";
-		          $pageres = mysqli_query($conexion, $PageSql);
+		          $PageSql = "SELECT * FROM tab_proy WHERE statu_proy = 1 ORDER BY ident_proy DESC";
+		          $pageres = mysqli_query($con, $PageSql);
 		          $totalres = mysqli_num_rows($pageres);
 
 		          $endpage = ceil($totalres/$perpage);
@@ -33,30 +33,25 @@
 		          $nextpage = $curpage + 1;
 		          $previouspage = $curpage - 1;
 
-		          $ReadSql = "SELECT * FROM tab_not WHERE statu_not = 1 ORDER BY ident_not DESC LIMIT $start, $perpage";
-		          $res = mysqli_query($conexion, $ReadSql);
+		          $ReadSql = "SELECT * FROM tab_proy WHERE statu_proy = 1 ORDER BY ident_proy DESC LIMIT $start, $perpage";
+		          $res = mysqli_query($con, $ReadSql);
 		      ?>
 
 		      <div class="container text-center">
 		        <div class="card-deck">
 		          <?php
-		              while($row = mysqli_fetch_assoc($res)){
-
-		                if ($row['image_not'] != 'default.jpg') 
-		                {
-		                  $foto = '../imagen/uploads/'.$row['image_not'];
-		                }else{
-		                  $foto = '../imagen/uploads/'.$row['image_not'];
-		                }
-		            ?>
-		          <div class="col-lg-12">
+		            while($row = mysqli_fetch_assoc($res)){  
+		          ?>
+		          <div class="col col-lg-6">
 		            <div class="card my-3">
-		              <img  class="card-img-fluid image-size-index" src="<?php echo $foto; ?>" alt="Foto de la Noticia">
+		              <img  class="card-img-fluid image-size-index" src="../<?php echo $row['image_proy']; ?>" alt="Foto de la Publicacion">
 		              <div class="card-body">
-		                <h4 class="card-title"><b><?php echo $row['titul_not'] ?></b></h4>
-		                <p class="card-text"><?php echo $row['desco_not'] ?></p>
-		                <p class="card-text float-left"><small class="text-muted"><?php echo $row['fecpu_not'] ?></small></p>
-		                <a href="paginas/noticia_detalle.php?id=<?php echo $row['ident_not']; ?>" class="btn btn-primary float-right"><i class="fa fa-eye"></i> Leer Más</a>
+		                <h4 class="card-title"><b><?php echo $row['nombr_proy']; ?></b></h4>
+		                <p class="card-text"><?php echo $row['desco_proy']; ?></p>
+		              </div>
+		              <div class="card-footer">
+		               	<p class="card-text float-left"><small class="text-muted"><?php echo $row['fecre_proy']; ?></small></p>
+		                <a href="publicacion_detalle.php?id=<?php echo $row['ident_proy']; ?>" class="btn btn-primary float-right"><i class="fa fa-eye"></i> Leer Más</a>
 		              </div>
 		            </div>
 		          </div>

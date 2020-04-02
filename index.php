@@ -108,37 +108,31 @@
 	  <div class="container">
 	  	<h2 class="" style="color: #000000;"><b>Blog</b></h2>
 	  	<hr class="my-4">
+	  	<?php
+        include("paginas/conexion.php");
+          $ReadSql = "SELECT * FROM tab_proy WHERE statu_proy = 1 ORDER BY ident_proy DESC LIMIT 3";
+          $res = mysqli_query($con, $ReadSql);
+      ?>
 	  	<div class="card-deck">
-				<div class="card" style="width:400px">
-				  <img class="card-img-top" src="imagen/personal1.jpg" alt="Personales">
-				  <div class="card-body">
-				    <h4 class="card-title">Personales</h4>
-				    <p class="card-text">Proyectos y Empredimientos que estoy realizando y aspiro hacer.</p>
+	  		<?php
+          while($row = mysqli_fetch_assoc($res)){  
+        ?>
+        <div class="col col-lg-4">
+					<div class="card">
+					  <img class="card-img-fluid image-size-index" src="<?php echo $row['image_proy']; ?>" alt="Personales">
+					  <div class="card-body">
+					    <h4 class="card-title"><b><?php echo $row['nombr_proy']; ?></b></h4>
+					    <p class="card-text"><?php echo $row['desco_proy']; ?></p>
+						</div>
+						<div class="card-footer">
+			      	<p class="card-text float-left"><small class="text-muted"><?php echo $row['fecre_proy']; ?></small></p>
+		          <a href="paginas/publicacion_detalle.php?id=<?php echo $row['ident_proy']; ?>" class="btn btn-primary float-right"><i class="fa fa-eye"></i> Leer Más</a>
+			    	</div>
 					</div>
-					<div class="card-footer">
-		      		<a href="paginas/proyectos_personales.php" class="btn btn-primary disabled">Ver Proyectos</a>
-		    	</div>
 				</div>
-				<div class="card" style="width:400px">
-				  <img class="card-img-top" src="imagen/coding.jpg" alt="Academicos">
-				  <div class="card-body">
-				    <h4 class="card-title">Académicos</h4>
-				    <p class="card-text">Proyectos utilizando HTML, CSS, JS, PHP, Boostrap, Yii, y demás herramientas, además se encuentran proyectos realizados en las distintas asignaturas de la carrera Ingeniería de Sistemas.</p>
-				  </div>
-				  <div class="card-footer">
-		      	<a href="paginas/proyectos_academicos.php" class="btn btn-primary">Ver Proyectos</a>
-		    	</div>
-				</div>
-				<div class="card" style="width:400px">
-				  <img class="card-img-top" src="imagen/office1.jpg" alt="Profesionales">
-				  <div class="card-body">
-				    <h4 class="card-title">Profesionales</h4>
-				    <p class="card-text">Proyectos enfocados al área Profesional y Laboral.</p>
-				  </div>
-				  <div class="card-footer">
-		      	<a href="paginas/proyectos_profesionales.php" class="btn btn-primary disabled">Ver Proyectos</a>
-		    	</div>
-				</div>
+				<?php
+          }
+        ?>
 			</div>
 		</div>
 	</div>

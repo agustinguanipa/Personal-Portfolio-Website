@@ -103,3 +103,7 @@ background: linear-gradient(90deg, rgba(56,176,222,1) 0%, rgba(66,136,255,1) 50%
   padding: 40px;
 }
 
+.noticia-detalle{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}

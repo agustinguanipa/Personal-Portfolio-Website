@@ -4,10 +4,10 @@
         <div class="container my-auto">
           <section class="footer-bottom row">
             <div class="col-sm-6"> 
-              <p><b>Ministerio del Poder Popular para Ciencia y Tecnología </b></p>
+              <p><b></b></p>
             </div>
             <div class="col-sm-6">
-              <p class="text-sm-right"><b>FUNDACITE Táchira</b></p>
+              <p class="text-sm-right"><b>Agustin Guanipa</b></p>
               <p class="text-sm-right">Copyright &copy 2020<br>
               </p>
             </div>

@@ -37,9 +37,10 @@
   <link rel="stylesheet" type="text/css" href="../css/estilos.css">
   <link rel="stylesheet" type="text/css" href="../css/estilos_admin.css">
   <link rel="stylesheet" type="text/css" href="../css/estilos_crud.css">
+  <link rel="stylesheet" type="text/css" href="../css/foto.css">
   <link href="../libs/startbootstrap-simple-sidebar-gh-pages/css/simple-sidebar.css" rel="stylesheet">
   <link href="../libs/startbootstrap-simple-sidebar-gh-pages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../libs/fontawesome-free-5.12.1-web/css/all.css" rel="stylesheet">
+  <link href="../libs/fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
   <!--- jQuery --->
   <script src="../libs/jquery/jquery-3.4.1.min.js" type="text/javascript"></script>
   <!--- jQuery Validation --->
@@ -63,7 +64,7 @@
   <!--- Bootstrap 4 File Style 2 --->
   <script type="text/javascript" src="../libs/bootstrap-filestyle-2.1.0/src/bootstrap-filestyle.min.js"> </script>
   <!--- CKEditor --->
-  <script src="../libs/ckeditor-basic/ckeditor.js"></script>
+  <script src="../libs/ckeditor/ckeditor.js"></script>
 </head>
 
 <body>
@@ -92,13 +93,13 @@
             <span class="menu-collapsed">Inicio</span>
         </div>
       </a>
-      <a href="admin_publicacion.php" aria-expanded="false" class="bg-light text-dark list-group-item list-group-item-action flex-column align-items-start tamano-elemento-sidebar">
+      <a href="publicacion_lista.php" aria-expanded="false" class="bg-light text-dark list-group-item list-group-item-action flex-column align-items-start tamano-elemento-sidebar">
         <div class="d-flex w-100 justify-content-start align-items-center">
             <span class="fa fa-comment-alt fa-fw mr-3"></span> 
             <span class="menu-collapsed">Publicaciones</span>
         </div>
       </a>
-      <a href="admin_portafolio.php" aria-expanded="false" class="bg-light text-dark list-group-item list-group-item-action flex-column align-items-start tamano-elemento-sidebar">
+      <a href="portafolio_lista.php" aria-expanded="false" class="bg-light text-dark list-group-item list-group-item-action flex-column align-items-start tamano-elemento-sidebar">
         <div class="d-flex w-100 justify-content-start align-items-center">
             <span class="fa fa-images fa-fw mr-3"></span> 
             <span class="menu-collapsed">Portafolio</span>
@@ -134,8 +135,7 @@
         <div class="dropdown show" style="padding-left: 10px;">
           <a class="btn btn-light" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" data-target="#dropdownMenu" aria-haspopup="true" aria-expanded="false"><i class="fa fa-ellipsis-v"></i><b></b></a>
           <div class="dropdown-menu dropdown-menu-right" id="dropdownMenu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="../administrador/admin_cuenta.php"><i class="fa fa-user-circle"></i> <b>Mi Cuenta</b></a>
-            <a class="dropdown-item" href="../sesion/usuario_cerrar.php"><i class="fa fa-sign-out-alt"></i> <b>Cerrar Sesión</b></a>
+            <a class="dropdown-item" href="usuario_cerrar.php"><i class="fa fa-sign-out-alt"></i> <b>Cerrar Sesión</b></a>
           </div>
         </div>
       </nav>
