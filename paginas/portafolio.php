@@ -48,10 +48,10 @@
  							?>
 									<div class="col-lg-3 col-md-4 col-xs-6 thumb filter <?php echo $row['categ_imag'] ?>">
 		                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
-		                   data-image="../<?php echo $row['image_imag'] ?>"
+		                   data-image="<?php echo $row['image_imag'] ?>"
 		                   data-target="#image-gallery">
 		                    <img class="img-thumbnail"
-		                         src="../<?php echo $row['image_imag'] ?>"
+		                         src="<?php echo $row['image_imag'] ?>"
 		                         alt="<?php echo $row['categ_imag'] ?>">
 		                </a>
 			            </div>

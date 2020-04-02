@@ -12,12 +12,12 @@
 
 	$image_proy = $_FILES['image_proy']['name'];
 	$ruta1 = $_FILES['image_proy']['tmp_name'];
-	$destino1 = "imagen/publicaciones/".$image_proy;
+	$destino1 = "../imagen/publicaciones/".$image_proy;
 	move_uploaded_file($ruta1,$destino1);
 
 	if ($image_proy == '')
 	{
-		$destino1 = "imagen/publicaciones/default.jpg";
+		$destino1 = "../imagen/publicaciones/default.jpg";
 	}
 
 		$query_insert = mysqli_query($con,"INSERT INTO tab_proy(nombr_proy,desco_proy,descr_proy,areaa_proy,image_proy,statu_proy,ident_usua) VALUES('$nombr_proy','$desco_proy','$descr_proy','$areaa_proy','$destino1','$statu_proy','$ident_usua')");

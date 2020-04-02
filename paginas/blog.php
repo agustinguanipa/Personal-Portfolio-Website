@@ -17,7 +17,7 @@
 	  			
 					<?php
 		        include("conexion.php");
-		         $perpage = 3;
+		         $perpage = 8;
 		          if(isset($_GET['page']) & !empty($_GET['page'])){
 		            $curpage = $_GET['page'];
 		          }else{
@@ -44,7 +44,7 @@
 		          ?>
 		          <div class="col col-lg-6">
 		            <div class="card my-3">
-		              <img  class="card-img-fluid image-size-index" src="../<?php echo $row['image_proy']; ?>" alt="Foto de la Publicacion">
+		              <img  class="card-img-fluid image-size-index" src="<?php echo $row['image_proy']; ?>" alt="Foto de la Publicacion">
 		              <div class="card-body">
 		                <h4 class="card-title"><b><?php echo $row['nombr_proy']; ?></b></h4>
 		                <p class="card-text"><?php echo $row['desco_proy']; ?></p>

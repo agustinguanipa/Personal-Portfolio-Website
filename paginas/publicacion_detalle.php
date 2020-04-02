@@ -20,7 +20,7 @@ $id = $_GET['id'];
 <body>
   <div class="container text-center noticia-detalle">
     <div class="card">
-      <img class="card-img-fluid image-size-detalle" src="../<?php echo $row['image_proy']; ?>" alt="Foto de la Publicación">
+      <img class="card-img-fluid image-size-detalle" src="<?php echo $row['image_proy']; ?>" alt="Foto de la Publicación">
       <div class="card-body">
         <h2><b><?php echo $row['nombr_proy'] ?></b></h2>
         <hr>

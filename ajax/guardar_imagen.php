@@ -10,7 +10,7 @@
 	
 	$image_imag = $_FILES['image_imag']['name'];
 	$ruta1 = $_FILES['image_imag']['tmp_name'];
-	$destino1 = "imagen/portafolio/".$image_imag;
+	$destino1 = "../imagen/portafolio/".$image_imag;
 	move_uploaded_file($ruta1,$destino1);
 
 		$query_insert = mysqli_query($con,"INSERT INTO tab_imag(nombr_imag,descr_imag,categ_imag,image_imag,statu_imag) VALUES('$nombr_imag','$descr_imag','$categ_imag','$destino1','$statu_imag')");

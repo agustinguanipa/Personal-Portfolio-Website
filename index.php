@@ -119,7 +119,7 @@
         ?>
         <div class="col col-lg-4">
 					<div class="card">
-					  <img class="card-img-fluid image-size-index" src="<?php echo $row['image_proy']; ?>" alt="Personales">
+					  <img class="card-img-fluid image-size-index" src="__DIR__ ../<?php echo $row['image_proy']; ?>" alt="Personales">
 					  <div class="card-body">
 					    <h4 class="card-title"><b><?php echo $row['nombr_proy']; ?></b></h4>
 					    <p class="card-text"><?php echo $row['desco_proy']; ?></p>
