@@ -16,7 +16,7 @@
 				    <button class="btn btn-primary filter-button" data-filter="RETRATOS">Retratos</button>
 				    <button class="btn btn-primary filter-button" data-filter="PAISAJES">Paisajes</button>
 				    <button class="btn btn-primary filter-button" data-filter="DISENOS">Diseños</button>
-				    <button class="btn btn-primary filter-button" data-filter="ZPFOTOGRAFIA">ZP Fotografía</button>
+				    <button class="btn btn-primary filter-button" data-filter="ZP FOTOGRAFIA">ZP Fotografía</button>
 
 						<div class="row">
 							<div class="row">
