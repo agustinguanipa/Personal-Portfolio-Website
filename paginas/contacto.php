@@ -151,7 +151,6 @@ background: linear-gradient(90deg, rgba(56,176,222,1) 0%, rgba(66,136,255,1) 50%
     <div class="container">
       <div class="row">
         <div class="col-sm-12 form-group">
-          <br>
           <h2 class="" style="color: #000000;"><b>Contacto</b></h2>
           <hr class="my-4">
             <div class="col-sm-8 form-group">
