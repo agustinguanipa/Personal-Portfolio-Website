@@ -16,7 +16,7 @@
 	    		</div>
 	  			<p class="titulo">Carlos Agustin Guanipa Alvarez</p>
 		     	<p class="contenido">
-		     		20 Años.</br>
+		     		22 Años.</br>
 		    		Venezolano.</br>
 		    		Estudiante de Ingeniería.</br>
 		    	</p>
