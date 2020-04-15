@@ -117,7 +117,7 @@
 	  		<?php
           while($row = mysqli_fetch_assoc($res)){  
         ?>
-        <div class="col col-lg-4">
+       
 					<div class="card">
 					  <img class="card-img-fluid image-size-index" src="__DIR__ ../<?php echo $row['image_proy']; ?>" alt="Personales">
 					  <div class="card-body">
@@ -129,7 +129,7 @@
 		          <a href="paginas/publicacion_detalle.php?id=<?php echo $row['ident_proy']; ?>" class="btn btn-primary float-right"><i class="fa fa-eye"></i> Leer Más</a>
 			    	</div>
 					</div>
-				</div>
+				
 				<?php
           }
         ?>
