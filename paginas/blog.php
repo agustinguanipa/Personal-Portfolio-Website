@@ -1,7 +1,7 @@
 <?php require_once('includes/header.php'); ?>
 
 <head>
-	<title>Blog | Carlos Agustin Guanipa Alvarez</title>
+	<title>Blog | Agustin Guanipa</title>
 </head>
 
 <body>
@@ -106,7 +106,7 @@
 		    </div>
 		  </div>
 		</div>
-	</div>s
+	</div>
 </body>
 
 <?php require_once('includes/footer.php');  ?>

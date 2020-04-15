@@ -1,7 +1,7 @@
 <?php require_once('includes/header.php'); ?>
 
 <head>
-	<title>Portafolio | Carlos Agustin Guanipa Alvarez</title>
+	<title>Portafolio | Agustin Guanipa</title>
 </head>
 
 <body>

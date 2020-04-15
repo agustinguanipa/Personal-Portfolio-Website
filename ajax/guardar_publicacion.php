@@ -21,8 +21,6 @@
 	}
 
 		$query_insert = mysqli_query($con,"INSERT INTO tab_proy(nombr_proy,desco_proy,descr_proy,areaa_proy,image_proy,statu_proy,ident_usua) VALUES('$nombr_proy','$desco_proy','$descr_proy','$areaa_proy','$destino1','$statu_proy','$ident_usua')");
-
-		
-		 
+	 
 	header('location: ../paginas/publicacion_registro_exito.php');
 ?>
