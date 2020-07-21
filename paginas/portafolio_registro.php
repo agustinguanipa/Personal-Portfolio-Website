@@ -9,7 +9,7 @@
 		    <b>Registrar Imagen</b>
 		  </div>
 	   	<div class="card-body">
-        <form role="form" id="imagen_registro" class="justify-content-center mx- my-1" align="center" enctype="multipart/form-data" action="../ajax/guardar_imagen.php" method="post">
+        <form role="form" id="imagen_registro" class="justify-content-center mx- my-1" align="center" enctype="multipart/form-data" action="../ajax/guardar_portafolio.php" method="post">
           <div class="form-row">
             <div class="col form-group">
               <label class="form-label" for="nombr_imag"><b>Nombre: </b></label>
@@ -49,7 +49,7 @@
         </form>    
 			</div>
 			<div class="card-footer">
-         <a href=portafolio_lista.php" class="btn btn-info float-left"><i class="fa fa-arrow-left"></i> Volver al Listado</a> 
+         <a href="portafolio_lista.php" class="btn btn-info float-left"><i class="fa fa-arrow-left"></i> Volver al Listado</a> 
 			</div>
     </div>
   </div>

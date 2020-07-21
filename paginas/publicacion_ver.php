@@ -45,7 +45,7 @@
       </div>
 		  <div class="form-row">
 		  	 <div class="col form-group">
-		      <label class="form-label" for="nombr_proy"><b>Título: </b></label><br>
+		      <label class="form-label" for="nombr_proy"><b>Nombre: </b></label><br>
 		      <label><?php echo $nombr_proy; ?></label>
 		    </div>
 		  </div>

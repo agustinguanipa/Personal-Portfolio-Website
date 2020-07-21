@@ -5,7 +5,7 @@
 
 	$busqueda = strtolower($_REQUEST['busqueda']);
 	if (empty($busqueda)) {
-		header('location: publicacion_lista.php');
+		header('location: portafolio_lista_inactivo.php');
 		mysqli_close($con);
 	}
 ?>
@@ -15,19 +15,18 @@
 	    <div class="table-title">
 	        <div class="row">
             <div class="col-sm-6">
-							<h2>Administrar <b>Publicaciones</b></h2>
+							<h2>Administrar <b>Portafolio</b></h2>
 						</div>
 						<div class="col-sm-6">
-							<a href="publicacion_lista.php" class="btn btn-light text-dark"><i class="fa fa-users"></i> Publicaciones Activas</a>
-							<a href="publicacion_lista_inactivo.php" class="btn btn-light text-dark"><i class="fa fa-trash"></i> Publicaciones Inactivas</a>
+							<a href="portafolio_lista.php" class="btn btn-light text-dark"><i class="fa fa-users"></i> Imagenes Activas</a>
+							<a href="portafolio_lista_inactivo.php" class="btn btn-light text-dark"><i class="fa fa-trash"></i> Imagenes Inactivas</a>
 						</div>
 	        </div>
 	    </div>
 	    <div class="row" style="padding-top: 2px;">
-	    	<div class="col-sm-8">
-					<a href="publicacion_registro.php" class="btn btn-success float-left"><i class="fa fa-plus"></i> Registrar Publicación</a>	
+	    	<div class="col-sm-8">	
 				</div>
-				<form action="publicacion_buscar.php" method="GET" class="col-sm-4" style="padding-top: 1px;">
+				<form action="portafolio_buscar_inactivo.php" method="GET" class="col-sm-4" style="padding-top: 1px;">
 					<div class="input-group">			
 						<input type="text" class="form-control" name="busqueda" id="busqueda" placeholder="Buscar">
 						<div class="input-group-append">
@@ -43,21 +42,19 @@
 						<tr>
 							<th class='text-center'>ID</th>
 							<th class='text-center'>Nombre</th>
-							<th class='text-center'>Área</th>
+							<th class='text-center'>Categoría</th>
 							<th class='text-center'>Fecha de Publicación</th>
-							<th class='text-center'>Ver</th>
-							<th class='text-center'>Editar</th>
-							<th class='text-center'>Borrar</th>
+							<th class='text-center'>Restaurar</th>
 						</tr>
 						<?php 
 							
 						// Paginador 
 
-							$sql_registe = mysqli_query($con,"SELECT COUNT(*) as total_registro FROM tab_proy WHERE 
-								(ident_proy LIKE '%busqueda%' OR
-								nombr_proy LIKE '%busqueda%' OR
-								fecre_proy LIKE '%busqueda%' )
-								AND statu_proy = 1");
+							$sql_registe = mysqli_query($con,"SELECT COUNT(*) as total_registro FROM tab_imag WHERE 
+								(ident_imag LIKE '%busqueda%' OR
+								nombr_imag LIKE '%busqueda%' OR
+								fecre_imag LIKE '%busqueda%' )
+								AND statu_imag = 0");
 							$result_registe = mysqli_fetch_array($sql_registe);
 							$total_registro = $result_registe['total_registro'];
 
@@ -74,11 +71,11 @@
 							$desde = ($pagina-1) * $por_pagina;
 							$total_paginas = ceil($total_registro / $por_pagina);
 
-							$query = mysqli_query($con,"SELECT ident_proy, nombr_proy, areaa_proy, fecre_proy FROM tab_proy WHERE 
-								( ident_proy LIKE '%$busqueda%' OR
-								nombr_proy LIKE '%$busqueda%' OR  
-								fecre_proy LIKE '%$busqueda%' )
-								AND statu_proy = 1  ORDER BY ident_proy ASC LIMIT $desde,$por_pagina");
+							$query = mysqli_query($con,"SELECT ident_imag, nombr_imag, categ_imag, fecre_imag FROM tab_imag WHERE 
+								( ident_imag LIKE '%$busqueda%' OR
+								nombr_imag LIKE '%$busqueda%' OR  
+								fecre_imag LIKE '%$busqueda%' )
+								AND statu_imag = 0  ORDER BY ident_imag ASC LIMIT $desde,$por_pagina");
 							mysqli_close($con);
 							$result = mysqli_num_rows($query);
 
@@ -87,19 +84,13 @@
 
 							 		?>
 
-							 		<tr class="row<?php echo $data['ident_proy']; ?>">
-										<td class='text-center'><?php echo $data['ident_proy']; ?></td>
-										<td class='text-center'><?php echo $data['nombr_proy']; ?></td>
-										<td class='text-center'><?php echo $data['areaa_proy']; ?></td>
-										<td class='text-center'><?php echo $data['fecre_proy']; ?></td>
+							 		<tr class="row<?php echo $data['ident_imag']; ?>">
+										<td class='text-center'><?php echo $data['ident_imag']; ?></td>
+										<td class='text-center'><?php echo $data['nombr_imag']; ?></td>
+										<td class='text-center'><?php echo $data['categ_imag']; ?></td>
+										<td class='text-center'><?php echo $data['fecre_imag']; ?></td>
 										<td class='text-center'>
-											<a href="publicacion_ver.php?id=<?php echo $data['ident_proy']; ?>" class="look"><i class="fa fa-eye"></i></a>
-										</td>
-										<td class='text-center'>
-											<a href="publicacion_editar.php?id=<?php echo $data['ident_proy']; ?>" class="edit"><i class="fa fa-edit"></i></a>
-										</td>
-										<td class='text-center'>
-											<a href="publicacion_borrar.php?id=<?php echo $data['ident_proy']; ?>" class="delete eliminar"><i class="fa fa-trash-alt"></i></a>
+											<a href="portafolio_restaurar.php?id=<?php echo $data['ident_imag']; ?>" class="look"><i class="fa fa-check"></i></a>
 										</td>
 									</tr>
 

@@ -10,7 +10,7 @@
 							<h2>Administrar <b>Publicaciones</b></h2>
 						</div>
 						<div class="col-sm-6">
-							<a href="publicacion_lista.php" class="btn btn-light text-dark"><i class="fa fa-users"></i> Publicaciones Activas</a>
+							<a href="publicacion_lista.php" class="btn btn-light text-dark"><i class="fa fa-comment-alt"></i> Publicaciones Activas</a>
 							<a href="publicacion_lista_inactivo.php" class="btn btn-light text-dark"><i class="fa fa-trash"></i> Publicaciones Inactivas</a>
 						</div>
 	        </div>

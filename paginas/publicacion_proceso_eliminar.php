@@ -12,5 +12,4 @@
 				echo 'error';
 			}
 		exit;
-
  ?>

@@ -21,7 +21,6 @@ $id = $_GET['id'];
   	$nombr_proy = $data_user['nombr_proy'];
     $desco_proy = $data_user['desco_proy'];
     $descr_proy = $data_user['descr_proy'];
-    $ident_cate = $data_user['ident_cate'];
     $image_proy = $data_user['image_proy'];
     $areaa_proy = $data_user['areaa_proy'];
   }
@@ -105,7 +104,6 @@ $id = $_GET['id'];
       },
       descr_proy: {
         required: true,
-        lettersonly: true,
         minlength: 2
       }
     },
@@ -120,9 +118,8 @@ $id = $_GET['id'];
         minlength: "La Descripción debe contener al menos 10 caracteres"
       },
       descr_proy: {
-        required: "Ingrese el Autor",
-        lettersonly: "El Autor solo debe contener letras sin espacios",
-        minlength: "El Autor debe contener al menos 2 caracteres"
+        required: "Ingrese la Descripción",
+        minlength: "La Descripción debe contener al menos 10 caracteres"
       }
     },
 

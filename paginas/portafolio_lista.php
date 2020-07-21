@@ -10,7 +10,7 @@
 							<h2>Administrar <b>Portafolio</b></h2>
 						</div>
 						<div class="col-sm-6">
-							<a href="portafolio_lista.php" class="btn btn-light text-dark"><i class="fa fa-users"></i> Imagenes Activas</a>
+							<a href="portafolio_lista.php" class="btn btn-light text-dark"><i class="fa fa-images"></i> Imagenes Activas</a>
 							<a href="portafolio_lista_inactivo.php" class="btn btn-light text-dark"><i class="fa fa-trash"></i> Imagenes Inactivas</a>
 						</div>
 	        </div>

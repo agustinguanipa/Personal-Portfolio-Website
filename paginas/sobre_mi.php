@@ -20,7 +20,7 @@
 		    		Venezolano.</br>
 		    		Estudiante de Ingeniería.</br>
 		    	</p>
-		    	<a href="../archivos/CURRICULUM VITAE (2019).pdf" class="btn btn-primary" download>Descargar CV</a>
+		    	<a href="../archivos/CURRICULUM VITAE (2020).pdf" class="btn btn-primary" download>Descargar CV</a>
 		    </div>
 		  </div>
 		</div>
