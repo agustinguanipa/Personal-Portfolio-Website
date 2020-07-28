@@ -24,7 +24,7 @@
                 <option value="RETRATOS">RETRATOS</option>
                 <option value="PAISAJES">PAISAJES</option>
                 <option value="DISENOS">DISEÑOS</option>
-                <option value="ZP FOTOGRAFIA">ZP FOTOGRAFIA</option>
+                <option value="ZPFOTOGRAFIA">ZP FOTOGRAFIA</option>
               </select>
             </div>
           </div>
